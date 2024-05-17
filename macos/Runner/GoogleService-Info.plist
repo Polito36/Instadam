@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyAmeoUhiBLm2M_MkEAdc9pfe8yAsedPvvQ</string>
+	<string>AIzaSyB3ZkkgSRLGzDRJQD18hBeivN0fQfOsYzE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>1076795429687</string>
+	<string>452760830856</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.instadamFirebase.RunnerTests</string>
+	<string>com.example.photographyFlutterFirebaseFullstackApplication.RunnerTests</string>
 	<key>PROJECT_ID</key>
-	<string>pt3-c-64507</string>
+	<string>prueba-5c0fa</string>
 	<key>STORAGE_BUCKET</key>
-	<string>pt3-c-64507.appspot.com</string>
+	<string>prueba-5c0fa.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:1076795429687:ios:d9e5c7804f2bffbbef00b2</string>
+	<string>1:452760830856:ios:fad1490d0081b3bed3703d</string>
 </dict>
 </plist>

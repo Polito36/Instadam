@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="instadam_firebase"
+        android:label="photography_flutter_firebase_fullstack_application"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

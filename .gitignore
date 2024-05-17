@@ -41,3 +41,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# igonore Firebase File
+lib/firebase_options.dart

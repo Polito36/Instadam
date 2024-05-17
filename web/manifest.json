@@ -1,6 +1,6 @@
 {
-    "name": "instadam_firebase",
-    "short_name": "instadam_firebase",
+    "name": "photography_flutter_firebase_fullstack_application",
+    "short_name": "photography_flutter_firebase_fullstack_application",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

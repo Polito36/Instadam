@@ -23,15 +23,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -61,9 +55,27 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyAejLoq4OQV4-xmsPHVi7ztFFxijQarWfc',
-    appId: '1:1076795429687:android:1fd53f21a74c73a6ef00b2',
+    appId: '1:1076795429687:android:b92e8195a9ca4786ef00b2',
     messagingSenderId: '1076795429687',
     projectId: 'pt3-c-64507',
     storageBucket: 'pt3-c-64507.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyAmeoUhiBLm2M_MkEAdc9pfe8yAsedPvvQ',
+    appId: '1:1076795429687:ios:b720cd1b35f6da8fef00b2',
+    messagingSenderId: '1076795429687',
+    projectId: 'pt3-c-64507',
+    storageBucket: 'pt3-c-64507.appspot.com',
+    iosBundleId: 'com.example.photographyFlutterFirebaseFullstackApplication',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyAmeoUhiBLm2M_MkEAdc9pfe8yAsedPvvQ',
+    appId: '1:1076795429687:ios:c2ed384adfbc3c54ef00b2',
+    messagingSenderId: '1076795429687',
+    projectId: 'pt3-c-64507',
+    storageBucket: 'pt3-c-64507.appspot.com',
+    iosBundleId: 'com.example.photographyFlutterFirebaseFullstackApplication.RunnerTests',
   );
 }

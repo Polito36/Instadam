@@ -1,10 +1,10 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
-project(instadam_firebase LANGUAGES CXX)
+project(photography_flutter_firebase_fullstack_application LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
-set(BINARY_NAME "instadam_firebase")
+set(BINARY_NAME "photography_flutter_firebase_fullstack_application")
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
